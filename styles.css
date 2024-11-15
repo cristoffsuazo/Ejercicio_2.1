@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    font-weight: bold;
+}
+
+select {
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+#countries-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#countries-list li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+#countries-list li:hover {
+    background-color: #f0f0f0;
+}
+
+#country-details {
+    margin-top: 20px;
+    border-top: 2px solid #ccc;
+    padding-top: 20px;
+}
+
+#country-details img {
+    margin-top: 10px;
+}

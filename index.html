@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RestCountries App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>RestCountries Application</h1>
+
+    <!-- Región ComboBox -->
+    <label for="region">Selecciona una región:</label>
+    <select id="region" onchange="getCountries()">
+        <option value="Africa">África</option>
+        <option value="Americas">Américas</option>
+        <option value="Asia">Asia</option>
+        <option value="Europe">Europa</option>
+        <option value="Oceania">Oceanía</option>
+    </select>
+
+    <!-- Listado de Países -->
+    <ul id="countries-list"></ul>
+
+    <!-- Detalles del País -->
+    <div id="country-details">
+        <h2>Detalles del País</h2>
+        <p id="name"></p>
+        <p id="population"></p>
+        <p id="currencies"></p>
+        <p id="languages"></p>
+        <img id="flag" src="" alt="Flag" width="100">
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
